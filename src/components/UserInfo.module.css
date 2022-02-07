@@ -1,0 +1,41 @@
+.avatar{
+    height: 40px;
+    border:2px solid transparent;
+    cursor: pointer;
+}
+
+.avatar:hover{
+    border:2px solid coral;
+    border-radius: 50%;
+}
+
+.cart{
+    background-color: white;
+    border:none;
+    position: relative;
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.num{
+    margin:0;
+    position: absolute;
+    left:20px;
+    bottom:15px;
+    background-color: coral;
+    border-radius: 10px;
+    padding:1px 5px;
+    color:rgba(255, 255, 255, 0.726);
+}
+.wrapper{
+    position: relative;
+}
+
+.carticon{
+    cursor: pointer;
+}

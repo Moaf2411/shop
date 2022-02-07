@@ -1,0 +1,35 @@
+.menu{
+    height:100%;
+    width:60%;
+    background-color: white;
+    left:-60%;
+    position:absolute;
+    transition: 400ms ease-in;
+}
+
+.menu.transform1{
+    transform:translateX(100%);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: space-between;
+    height: 200px;
+    padding: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.795);
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.close{
+    margin:10px;
+}
